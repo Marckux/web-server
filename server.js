@@ -36,6 +36,6 @@ app.get('/generic', (req, res) => {
 });
 
 // Start the server on port 3000
-app.listen(3000, () => {
+app.listen(PORT, () => {
   console.log(`Server started on http://localhost:${PORT}`);
 });
